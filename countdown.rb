@@ -1,5 +1,4 @@
 def countdown(x)
-  sleep(5)
 
   x=10
 
@@ -9,4 +8,15 @@ def countdown(x)
   end
   return "HAPPY NEW YEAR!"
 
+end
+
+def countdown_with_sllep(s)
+  x=10
+  s=5
+  sleep(s)
+  while x>0
+    puts "#{x} SECOND(S)!"
+    x-=1
+  end
+  return "HAPPY NEW YEAR!"
 end
