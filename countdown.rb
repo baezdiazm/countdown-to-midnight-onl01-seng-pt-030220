@@ -1,4 +1,5 @@
 def countdown(x)
+  sleep(5)
   x=10
   while x>0
 sleep(1)
